@@ -3,15 +3,15 @@ Minimal craiglist apartment listing scraper.
 To get commute time estimates (optional):
   export $GM_APIKEY=your google maps api key 
 
-Dataframe columns:
-url: url of posting
-id: craigslist posting id
-description: description of listing
-price: listed price
-neighborhood: sublocation. could be town where you are. i wrote this looking for a place in brooklyn.
-title: title of listing
-address: address, if the poster put one there. stored as a string (i.e. will get the meaningless impossible street corners brokers put here )
-toWork: number of seconds google maps estimates to get to work (departing time defaulting to now)
+Dataframe columns:<br>
+url: url of posting<br>
+id: craigslist posting id<br>
+description: description of listing<br>
+price: listed price<br>
+neighborhood: sublocation. could be town where you are. i wrote this while looking for a place in brooklyn.<br>
+title: title of listing<br>
+address: address, if the poster put one there. stored as a string (i.e. will get the meaningless impossible street corners brokers put here)<br>
+toWork: number of seconds google maps estimates to get to work (departing time defaulting to now)<br>
 
 Hope this could give someone a start on doing this properly. I found a place the day after I started writing this so I didn't put as much time as I wanted to in.*
 
